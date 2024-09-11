@@ -12,7 +12,7 @@ function App() {
 
       <h2>Apenas para testar useState</h2>
       <p>Clicou: {count}</p>
-      <button onClick={(e) => setCount(count + 1)}>Clique aqui</button>
+      <button onClick={(e) => setCount(count + 1)}>Clique</button>
     </div>
   )
 }
