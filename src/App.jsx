@@ -12,7 +12,10 @@ function App() {
       <p>Volte mais tarde!</p>
 
       <h2>Apenas para testar useState</h2>
-      <p>Clicou: {count}</p>
+      <p>
+        Clicou: {count > 0 && <span>{count}</span>}
+      </p>
+
       <button onClick={(e) => setCount(count + 1)}>Clique</button>
     </div>
   )
