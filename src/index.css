@@ -37,7 +37,7 @@ h1 {
 }
 
 .state {
-  border: 1px dashed #979797;
+  border-bottom: 1px dashed #979797;
   padding: 10px;
   margin-bottom: 20px;
 }
@@ -72,7 +72,7 @@ button:hover {
 .socials {
   max-width: 200px;
   margin: 0 auto;
-  border: 1px dashed #b4b4b4;
+  border-bottom: 1px dashed #979797;
 }
 
 ul {
