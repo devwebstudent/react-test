@@ -2,8 +2,11 @@ import "./App.css";
 import { useState, useEffect } from "react";
 
 // Ícones
-import { MdOutlineAdsClick } from "react-icons/md";
+import { FiMinus } from "react-icons/fi";
+import { FiPlus } from "react-icons/fi";
 import { RxReset } from "react-icons/rx";
+
+// Sociais
 import { FaGithub } from "react-icons/fa";
 import { FaSteam } from "react-icons/fa";
 
@@ -19,20 +22,28 @@ function App() {
                 <p>Clicou: {count}</p>
 
                 <div className="control">
-                    <button onClick={(e) => setCount(count + 1)}>
-                        <MdOutlineAdsClick className="click" />
+                    <button onClick={() => setCount(count - 1)}>
+                        <FiMinus className="menos" />
                     </button>
-                    <button onClick={(e) => setCount(0)}>
-                        <RxReset className="reset" />
+
+                    <button onClick={() => setCount(count + 1)}>
+                        <FiPlus className="mais" />
                     </button>
                 </div>
+
+                <div className="control">
+                <button onClick={() => setCount(0)}>
+                    <RxReset />
+                </button>
             </div>
+            </div>            
 
             <div className="socials">
-            <h3>Onde me encontrar:</h3>
+                <h3>Onde me encontrar:</h3>
                 <ul>
                     <li><FaGithub /> <a href="https://github.com/devwebstudent" target="_blank">GitHub</a></li>
-                    <li><FaSteam /> <a href="#">Steam</a></li>
+                    <li><FaSteam /> <a href="#">Steam</a>
+                    </li>
                 </ul>
             </div>
         </div>

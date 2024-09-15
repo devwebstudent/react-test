@@ -37,9 +37,9 @@ h1 {
 }
 
 .state {
-  border-bottom: 1px dashed #979797;
   padding: 10px;
   margin-bottom: 20px;
+  border-bottom: 1px dashed #979797;
 }
 
 .control {
@@ -56,17 +56,18 @@ button {
   gap: 0.5em;
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 0.5em 0.9em;
   font-size: 1.3em;
   font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin-bottom: 5px;
 }
 
 button:hover {
-  border-color: #b4b4b4;
+  border-color: #979797;
 }
 
 .socials {
