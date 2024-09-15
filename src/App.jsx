@@ -28,8 +28,8 @@ function App() {
                 </div>
             </div>
 
-            <h3>Onde me encontrar:</h3>
             <div className="socials">
+            <h3>Onde me encontrar:</h3>
                 <ul>
                     <li><FaGithub /> <a href="https://github.com/devwebstudent" target="_blank">GitHub</a></li>
                     <li><FaSteam /> <a href="#">Steam</a></li>

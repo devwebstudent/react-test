@@ -15,6 +15,12 @@
 
 a {
   text-decoration: none;
+  color: #cfcfcf;
+}
+
+a:hover {
+  color: #acacac;
+  border-color: black;
 }
 
 body {
@@ -31,8 +37,9 @@ h1 {
 }
 
 .state {
-  border: 1px dashed rgb(151, 151, 151);
+  border: 1px dashed #979797;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .control {
@@ -60,6 +67,12 @@ button {
 
 button:hover {
   border-color: #b4b4b4;
+}
+
+.socials {
+  max-width: 200px;
+  margin: 0 auto;
+  border: 1px dashed #b4b4b4;
 }
 
 ul {
