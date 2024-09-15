@@ -1,5 +1,9 @@
 import './App.css'
 
+// Ícones
+import { MdOutlineAdsClick } from "react-icons/md";
+import { RxReset } from "react-icons/rx";
+
 import { useState, useEffect } from 'react'
 
 function App() {
@@ -16,7 +20,15 @@ function App() {
         Clicou: {count}
       </p>
 
-      <button onClick={(e) => setCount(count + 1)}>Clique</button>
+      <div className="control">
+        <button onClick={(e) => setCount(count + 1)}>          
+          <MdOutlineAdsClick className='click'/>
+        </button>
+
+        <button onClick={(e) => setCount(0)}>          
+          <RxReset className='reset'/>
+        </button>
+      </div>
     </div>
   )
 }
