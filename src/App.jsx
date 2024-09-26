@@ -1,6 +1,9 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 
+// Pacote chuva
+import { Rainify } from "rainify"
+
 // Ícones
 import { FiMinus } from "react-icons/fi";
 import { FiPlus } from "react-icons/fi";
@@ -15,6 +18,7 @@ function App() {
 
     return (
         <div className="App">
+            <Rainify isRaining wind={-2} speed={5} thickness={2} intensity={100} splashDuration={8} color="rgba(255,255,255,0.2)" />
             <h1>Em construção.</h1>
 
             <div className="state">
