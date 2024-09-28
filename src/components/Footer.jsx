@@ -11,8 +11,7 @@ const Footer = () => {
         <ul>
           <li><FaGithub /> <a href="https://github.com/devwebstudent" target="_blank">GitHub</a></li>
 
-          <li><FaSteam /> <a href="#">Steam</a>
-          </li>          
+          <li><FaSteam /> <a href="#">Steam</a></li>          
         </ul>
 
     </footer>

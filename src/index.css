@@ -53,7 +53,6 @@ header {
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 0.5em;
   margin-top: auto; /* Empurra o footer para o final da página */
@@ -61,7 +60,7 @@ footer {
 
 footer h3 {
   font-weight: 400;
-  border-bottom: 1px solid #979797;
+  border-bottom: 1px solid #965353;
 }
 
 a {
