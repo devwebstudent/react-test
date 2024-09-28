@@ -13,9 +13,6 @@ import { FiMinus } from "react-icons/fi";
 import { FiPlus } from "react-icons/fi";
 import { RxReset } from "react-icons/rx";
 
-// Sociais
-import { FaGithub } from "react-icons/fa";
-import { FaSteam } from "react-icons/fa";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -44,15 +41,6 @@ function App() {
                         <RxReset />
                     </button>
                 </div>
-                </div>
-
-                <div className="socials">
-                    <h3>Onde me encontrar:</h3>
-                    <ul>
-                        <li><FaGithub /> <a href="https://github.com/devwebstudent" target="_blank">GitHub</a></li>
-                        <li><FaSteam /> <a href="#">Steam</a>
-                        </li>
-                    </ul>
                 </div>
 
             </main>

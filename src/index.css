@@ -41,17 +41,27 @@ main p {
 
 header, footer {
   background-color: #1a1a1a;
-  text-align: center;
   padding: 20px;
   width: 100%;
 }
 
 header {
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
   margin-top: auto; /* Empurra o footer para o final da página */
+}
+
+footer h3 {
+  font-weight: 400;
+  border-bottom: 1px solid #979797;
 }
 
 a {
@@ -103,31 +113,17 @@ button:hover {
   border-color: #979797;
 }
 
-.socials {
-  max-width: 200px;
-  padding: 0.5rem;
-  margin: 0 auto;
-  margin-bottom: 0.5rem;
-  border-bottom: 1px dashed #979797;
-}
-
-.socials h3 {
-  margin-bottom: 0.5rem;
-  font-weight: 400;
-}
-
 ul {
   list-style-type: none;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  gap: 0.5em;
-  padding: 0;
+  align-items: center;
+  gap: 1rem;
 }
 
 ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5em;
+  gap: 0.5rem;
 }
